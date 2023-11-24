@@ -1,0 +1,45 @@
+#top-header {
+  text-align: center;
+}
+#everything {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-top: rgb(245, 230, 230) 1px solid;
+}
+#cart {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 60%;
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.left-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.left img {
+  width: 100px;
+  height: 100px;
+}
+
+.right button {
+  color: white;
+  background-color: #f68b1d;
+  border: none;
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+}
+.right button:disabled {
+  background-color: #fcc593;
+}
+#sub-total {
+  width: 30%;
+}

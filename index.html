@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="top-header">Gomycode</h1>
+    <div id="everything">
+        <div id="cart">
+            <div id="fullitem1" class="cart-item">
+                <div class="left">
+                    <div class="left-top">
+                        <img src="./res/product1.jpeg" alt="">
+                        <div>
+                            <h3>Holder Magnetic Laptop Phone Holder</h3>
+                            <h4>Seller:gpower.ng</h4>
+                            <p>Few units left</p>
+                        </div>
+                    </div>
+                    <button onclick=deleteitem(1)> remove</button>
+                </div>
+                <div class="right">
+                    <h1 id="price"># 10,090</h1>
+                    <h2><del>#15,000</del><span>-50%</span></h2>
+                    <div>
+                        <button id="minbtn1" disabled onclick=subOne(1)>-</button>
+                        <span id="item1">1</span>
+                        <button onclick=addOne(1)>+</button>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="fullitem2" class="cart-item">
+                <div class="left">
+                    <div class="left-top">
+                        <img src="./res/product1.jpeg" alt="">
+                        <div>
+                            <h3>Holder Magnetic Laptop Phone Holder</h3>
+                            <h4>Seller:gpower.ng</h4>
+                            <p>Few units left</p>
+                        </div>
+                    </div>
+                    <button onclick=deleteitem(2)> remove</button>
+                </div>
+                <div class="right">
+                    <h1># 6,490</h1>
+                    <h2><del>#15,000</del><span>-50%</span></h2>
+                    <div>
+                        <button id="minbtn2" disabled onclick=subOne(2)>-</button>
+                        <span id="item2">1</span>
+                        <button onclick=addOne(2)>+</button>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="fullitem3" class="cart-item">
+                <div class="left">
+                    <div class="left-top">
+                        <img src="./res/product1.jpeg" alt="">
+                        <div>
+                            <h3>Holder Magnetic Laptop Phone Holder</h3>
+                            <h4>Seller:gpower.ng</h4>
+                            <p>Few units left</p>
+                        </div>
+                    </div>
+                    <button onclick=deleteitem(3)> remove</button>
+                </div>
+                <div class="right">
+                    <h1># 7,890</h1>
+                    <h2><del>#15,000</del><span>-50%</span></h2>
+                    <div>
+                        <button id="minbtn3" disabled onclick=subOne(3)>-</button>
+                        <span id="item3">1</span>
+                        <button onclick=addOne(3)>+</button>
+
+                    </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <div id="sub-total">
+            <h3>CART SUMMARY </h3>
+            <span>Total=</span> <span id="total"></span>
+        </div>
+        
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
